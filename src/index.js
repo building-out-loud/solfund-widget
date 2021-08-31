@@ -3,12 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "./theme/index";
+import "@fontsource/roboto-mono";
+
+const fundraisingWidgetContainer = document.getElementById("fundraising-widget-container");
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider theme={theme}>
+      <App container={fundraisingWidgetContainer} />
+    </ChakraProvider> 
   </React.StrictMode>,
-  document.getElementById('root')
+  fundraisingWidgetContainer
 );
 
 // If you want to start measuring performance in your app, pass a function
