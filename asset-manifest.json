@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b48abab.css",
+    "main.js": "/main.js",
+    "main.js.map": "/main.js.map",
+    "static/js/1.44415872.chunk.js": "/static/js/1.44415872.chunk.js",
+    "static/js/1.44415872.chunk.js.map": "/static/js/1.44415872.chunk.js.map",
+    "index.html": "/index.html",
+    "main.js.LICENSE.txt": "/main.js.LICENSE.txt",
+    "static/css/main.7b48abab.css.map": "/static/css/main.7b48abab.css.map",
+    "static/media/index.css": "/static/media/roboto-mono-vietnamese-400-normal.baa5de8f.woff2"
+  },
+  "entrypoints": [
+    "static/css/main.7b48abab.css",
+    "main.js"
+  ]
+}
